@@ -79,4 +79,4 @@ if __name__=='__main__':
     ax.plot(x_axis,breit_wigner(x_axis, *fit))
     ax.scatter(df['x'],df['g'])
     ax.set_title(f'Breit-Wigner function for params a={fit[0]}, b={fit[1]}, c={fit[2]}', fontsize=8)
-    plt.savefig('homeworks/chapter_7/ex2_LMA/plot.pdf')
+    plt.savefig('plot.pdf')

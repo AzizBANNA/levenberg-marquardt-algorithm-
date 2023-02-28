@@ -67,7 +67,7 @@ def lin2d(X, a, b):
         
         
 if __name__=='__main__':
-    df = pd.read_csv('homeworks/chapter_7/ex2_LMA/breit_wigner.csv' ,  sep =',')
+    df = pd.read_csv('breit_wigner.csv' ,  sep =',')
     x=df['x'].to_numpy()
     y=df['g'].to_numpy()
     print(breit_wigner(x, 1,2,3))
